@@ -43,7 +43,7 @@ function App() {
         <Contact />
       </main>
       <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <p>&copy; 2024 Maulana Ahmad Zahiri. All rights reserved.</p>
       </footer>
     </div>
   );

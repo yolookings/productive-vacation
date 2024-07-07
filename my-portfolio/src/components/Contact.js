@@ -9,12 +9,11 @@ const Contact = () => (
       <li>Email: maulanazahiri31@example.com</li>
       <li>
         LinkedIn:{" "}
-        <a href="https://www.linkedin.com/in/maulanazahiri">
-          Your LinkedIn Profile
-        </a>
+        <a href="https://www.linkedin.com/in/maulanazahiri">in/maulanazahiri</a>
       </li>
       <li>
-        GitHub: <a href="https://github.com/yolookings">Your GitHub Profile</a>
+        GitHub:{" "}
+        <a href="https://github.com/yolookings">yolookings/maulanazahiri</a>
       </li>
       {/* Add more contact methods if needed */}
     </ul>

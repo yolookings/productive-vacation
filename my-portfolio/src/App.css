@@ -37,15 +37,56 @@
   }
 } */
 
+/* src/App.css */
+
+/* src/App.css */
+
+@font-face {
+  font-family: "TT Travels Next";
+  src: url("./fonts/tt_travels_next/TT Travels Next Trial Black.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Travels Next Trial Medium";
+  src: url("./fonts/tt_travels_next/TT\ Travels\ Next\ Trial\ Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display Bold";
+  src: url("./fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display Regular";
+  src: url("./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: "Georgia", serif;
+  font-family: "Playfair Display Regular", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8f8f8;
+  background-color: #0a0b0d;
+  color: #caf6db;
+  text-align: justify;
 }
 
 header {
+  font-family: "TT Travels Next";
   background-color: #333;
   color: #fff;
   padding: 1rem;
@@ -79,14 +120,15 @@ main {
 section {
   margin-bottom: 2rem;
   padding: 1rem;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #1a1b1f;
+  border: 1px solid #333;
   border-radius: 8px;
 }
 
 h1,
 h2 {
-  color: #333;
+  font-family: "TT Travels Next";
+  color: #e6e6e6;
 }
 
 footer {
@@ -95,9 +137,6 @@ footer {
   text-align: center;
   padding: 1rem;
   border-top: 4px solid #666;
-  position: bottom;
-  width: 100%;
-  bottom: 0;
 }
 
 footer p {
@@ -112,4 +151,31 @@ footer p {
   nav ul li {
     margin: 0.5rem 0;
   }
+}
+
+a {
+  color: #4fee97; /* Contoh warna merah untuk link */
+  text-decoration: none; /* Menghilangkan garis bawah default pada link */
+}
+
+a:hover {
+  color: #12f412; /* Contoh warna hijau ketika cursor berada di atas link */
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Menyesuaikan gambar agar mengisi seluruh area */
+}
+
+.text-content {
+  flex: 1; /* Mengambil ruang tersisa */
+  padding-right: 25px; /* Jarak antara teks dan gambar */
 }
