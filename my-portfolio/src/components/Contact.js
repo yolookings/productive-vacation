@@ -6,7 +6,7 @@ const Contact = () => (
     <p>How to get in touch with you:</p>
     <ul>
       <li>Phone: +6282230243783</li>
-      <li>Email: maulanazahiri31@example.com</li>
+      <li>Email: maulanazahiri31@gmail.com</li>
       <li>
         LinkedIn:{" "}
         <a href="https://www.linkedin.com/in/maulanazahiri">in/maulanazahiri</a>
