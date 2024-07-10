@@ -7,6 +7,7 @@ Welcome to my portfolio! This is a personal website created to showcase my proje
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Documentation](#documentation)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -29,3 +30,13 @@ This portfolio is designed to provide an overview of my professional background,
 ## Technologies Used
 
 - **React**: A JavaScript library for building user
+
+## Documentation
+
+![about](my-portfolio/images/about.png)
+
+- here information about myself
+  ![projects](my-portfolio/images/projects.png)
+- here information about my projects and
+  ![contacs](my-portfolio/images/contacs.png)
+- here information about my contacs
